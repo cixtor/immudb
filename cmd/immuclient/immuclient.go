@@ -1059,5 +1059,4 @@ value:		%s
 hash:		%x
 time:		%s
 `, item.Index, item.Key, item.Value, dig, time.Unix(int64(item.Value.Timestamp), 0))
-	return
 }

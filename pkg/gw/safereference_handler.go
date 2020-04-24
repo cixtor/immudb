@@ -88,5 +88,4 @@ func (h *safeReferenceHandler) SafeReference(w http.ResponseWriter, req *http.Re
 		runtime.HTTPError(ctx, h.mux, outboundMarshaler, w, req, err)
 		return
 	}
-	return
 }

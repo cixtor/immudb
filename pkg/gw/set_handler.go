@@ -95,5 +95,4 @@ func (h *setHandler) Set(w http.ResponseWriter, req *http.Request, pathParams ma
 		runtime.HTTPError(ctx, h.mux, outboundMarshaler, w, req, err)
 		return
 	}
-	return
 }
